@@ -1,0 +1,15 @@
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\bin\Debug\TaskTails.exe.config
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\bin\Debug\TaskTails.exe
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\bin\Debug\TaskTails.pdb
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.csproj.AssemblyReference.cache
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\MainWindow.g.cs
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\App.g.cs
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails_MarkupCompile.cache
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails_MarkupCompile.lref
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\MainWindow.baml
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.g.resources
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.Properties.Resources.resources
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.csproj.GenerateResource.cache
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.csproj.CoreCompileInputs.cache
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.exe
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.pdb
