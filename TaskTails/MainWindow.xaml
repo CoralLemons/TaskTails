@@ -5,12 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskTails"
         mc:Ignorable="d"
-        Title="TaskTails" Height="450" Width="600">
+        Title="Task Tails" Height="450" Width="600">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Background.png"/>
         </Grid.Background>
         <Rectangle HorizontalAlignment="Center" Height="350" Stroke="Black" VerticalAlignment="Center" Width="400" Fill="#FF90A485" RadiusX="10" RadiusY="10"/>
+        <Grid>
+            <Rectangle HorizontalAlignment="Left" Height="100" Margin="123,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RadiusX="10" RadiusY="10" StrokeThickness="0.5"/>
+            <Rectangle HorizontalAlignment="Center" Height="100" Margin="0,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RadiusX="10" RadiusY="10" StrokeThickness="0.5"/>
+            <Rectangle HorizontalAlignment="Left" Height="100" Margin="377,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RadiusX="10" RadiusY="10" StrokeThickness="0.5"/>
+        </Grid>
+
 
 
     </Grid>

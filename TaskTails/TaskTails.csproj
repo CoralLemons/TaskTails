@@ -97,5 +97,21 @@
   <ItemGroup>
     <Resource Include="Background.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Eggs\monsterEggs01.png" />
+    <Resource Include="Eggs\monsterEggs02.png" />
+    <Resource Include="Eggs\monsterEggs03.png" />
+    <Resource Include="Eggs\monsterEggs04.png" />
+    <Resource Include="Eggs\monsterEggs05.png" />
+    <Resource Include="Eggs\monsterEggs06.png" />
+    <Resource Include="Eggs\monsterEggs07.png" />
+    <Resource Include="Eggs\monsterEggs08.png" />
+    <Resource Include="Eggs\monsterEggs11.png" />
+    <Resource Include="Eggs\monsterEggs12.png" />
+    <Resource Include="Eggs\monsterEggs14.png" />
+    <Resource Include="Eggs\monsterEggs15.png" />
+    <Resource Include="Eggs\monsterEggs16.png" />
+    <Resource Include="Eggs\monsterEggs18.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
