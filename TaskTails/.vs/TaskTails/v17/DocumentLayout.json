@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|c:\\users\\gothi\\onedrive\\desktop\\repos\\tasktails\\tasktails\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|c:\\users\\gothi\\onedrive\\desktop\\repos\\tasktails\\tasktails\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|c:\\users\\gothi\\onedrive\\desktop\\repos\\tasktails\\tasktails\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|c:\\users\\gothi\\onedrive\\desktop\\repos\\tasktails\\tasktails\\usercontrolmainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:usercontrolmainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BA7538FC-59B0-4CBC-A874-24A71B91974F}|TaskTails.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -41,10 +57,61 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAIgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T14:40:09.464Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Egg.cs",
+              "DocumentMoniker": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\Egg.cs",
+              "RelativeDocumentMoniker": "Egg.cs",
+              "ToolTip": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\Egg.cs",
+              "RelativeToolTip": "Egg.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAwwG4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T20:15:16.927Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\Task.cs",
+              "RelativeDocumentMoniker": "Task.cs",
+              "ToolTip": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\Task.cs",
+              "RelativeToolTip": "Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T03:35:29.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControlMainMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\UserControlMainMenu.xaml",
+              "RelativeDocumentMoniker": "UserControlMainMenu.xaml",
+              "ToolTip": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\UserControlMainMenu.xaml",
+              "RelativeToolTip": "UserControlMainMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T03:31:38.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\gothi\\OneDrive\\Desktop\\Repos\\TaskTails\\TaskTails\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-18T23:22:10.286Z",
               "EditorCaption": ""
             }
           ]

@@ -8,19 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs01.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs02.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs03.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs04.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs05.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs06.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs07.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs08.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs11.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs12.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs14.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs15.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs16.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("eggs/monstereggs18.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons8-refresh-64.png")]
 
 

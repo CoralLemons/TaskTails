@@ -3,19 +3,41 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TaskTails"
+        xmlns:local="clr-namespace:TaskTails" d:DataContext="{d:DesignInstance Type=local:MainWindow}"
         mc:Ignorable="d"
-        Title="Task Tails" Height="450" Width="600">
+        Title="Task Tails" Height="450" Width="600"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Background.png"/>
         </Grid.Background>
         <Rectangle HorizontalAlignment="Center" Height="350" Stroke="Black" VerticalAlignment="Center" Width="400" Fill="#FF90A485" RadiusX="10" RadiusY="10"/>
         <Grid>
-            <Rectangle HorizontalAlignment="Left" Height="100" Margin="123,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RadiusX="10" RadiusY="10" StrokeThickness="0.5"/>
-            <Rectangle HorizontalAlignment="Center" Height="100" Margin="0,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RadiusX="10" RadiusY="10" StrokeThickness="0.5"/>
-            <Rectangle HorizontalAlignment="Left" Height="100" Margin="377,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RadiusX="10" RadiusY="10" StrokeThickness="0.5"/>
+            <Rectangle x:Name="FirstEgg" HorizontalAlignment="Left" Height="94" Margin="122,88,0,0" VerticalAlignment="Top" Width="94" RadiusX="10" RadiusY="10" Loaded="EggOne_Loaded" MouseLeftButtonDown="EggOne_MouseDown"/>
+            <Rectangle x:Name="SecondEgg" HorizontalAlignment="Center" Height="95" Margin="0,90,0,0" VerticalAlignment="Top" Width="95" RadiusX="10" RadiusY="10" Loaded="EggTwo_Loaded" MouseLeftButtonDown="EggTwo_MouseDown"/>
+            <Rectangle x:Name="ThirdEgg" HorizontalAlignment="Left" Height="95" Margin="375,90,0,0" VerticalAlignment="Top" Width="95" RadiusX="10" RadiusY="10" Loaded="EggThree_Loaded" MouseLeftButtonDown="EggThree_MouseDown"/>
+            <Ellipse x:Name="EggOneSelected" HorizontalAlignment="Left" Height="115" Margin="110,79,0,0" Stroke="Black" VerticalAlignment="Top" Width="115" StrokeThickness="4" Visibility="Hidden">
+                <Ellipse.Effect>
+                    <BlurEffect Radius="4"/>
+                </Ellipse.Effect>
+            </Ellipse>
+            <Ellipse x:Name="EggTwoSelected" HorizontalAlignment="Center" Height="115" Margin="0,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="116" StrokeThickness="4" Visibility="Hidden">
+                <Ellipse.Effect>
+                    <BlurEffect Radius="4"/>
+                </Ellipse.Effect>
+            </Ellipse>
+            <Ellipse x:Name="EggThreeSelected" HorizontalAlignment="Left" Height="114" Margin="364,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="116" StrokeThickness="4" Visibility="Hidden">
+                <Ellipse.Effect>
+                    <BlurEffect Radius="4"/>
+                </Ellipse.Effect>
+            </Ellipse>
+            <Button HorizontalAlignment="Left" Margin="435,217,0,0" VerticalAlignment="Top" Height="45" Width="45" Click="Refresh_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/icons8-refresh-64.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
         </Grid>
+        <Button x:Name="Adopt" Content="Adopt Pet!" HorizontalAlignment="Center" Margin="0,296,0,0" VerticalAlignment="Top" Height="41" Width="164" Click="Adopt_Click" IsEnabled="False"/>
 
 
 
