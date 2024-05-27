@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="600">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Background.png"/>
+            <ImageBrush ImageSource="/UI/Background.png"/>
         </Grid.Background>
         <Rectangle HorizontalAlignment="Center" Height="350" Stroke="Black" VerticalAlignment="Center" Width="400" Fill="#FF90A485" RadiusX="10" RadiusY="10"/>
     </Grid>

@@ -28,17 +28,20 @@ namespace TaskTails
             // placeholder to test window transitions
             Window window = Window.GetWindow(this);
             window.Content = new UserControlAdoptNewPet();
+
+            // locate the timestamp (or other marker) of the most recent file and load it
         }
 
         private void LoadSelected_Click(object sender, RoutedEventArgs e)
         {
-
+            // load the selected data file from the given path
         }
 
         // automatically save file before close
         private void Window_Closing(object sender, CancelEventArgs e)
         {
-
+            // if window closes on start up, do not save
+            // else save the data
         }
 
     }// end main window partial class

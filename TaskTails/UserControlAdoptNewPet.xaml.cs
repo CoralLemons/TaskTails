@@ -47,7 +47,7 @@ namespace TaskTails
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(GetEggOne, UriKind.Relative));
+                new BitmapImage(new Uri(GetEggOne, UriKind.Absolute));
 
             FirstEgg.Fill = myBrush;
         }
@@ -56,7 +56,7 @@ namespace TaskTails
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(GetEggTwo, UriKind.Relative));
+                new BitmapImage(new Uri(GetEggTwo, UriKind.Absolute));
 
             SecondEgg.Fill = myBrush;
         }
@@ -65,7 +65,7 @@ namespace TaskTails
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(GetEggThree, UriKind.Relative));
+                new BitmapImage(new Uri(GetEggThree, UriKind.Absolute));
 
             ThirdEgg.Fill = myBrush;
         }
@@ -128,17 +128,17 @@ namespace TaskTails
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(EggOne.refresh(), UriKind.Relative));
+                new BitmapImage(new Uri(EggOne.refresh(), UriKind.Absolute));
             FirstEgg.Fill = myBrush;
 
             ImageBrush second = new ImageBrush();
             second.ImageSource =
-                new BitmapImage(new Uri(EggTwo.refresh(), UriKind.Relative));
+                new BitmapImage(new Uri(EggTwo.refresh(), UriKind.Absolute));
             SecondEgg.Fill = second;
 
             ImageBrush third = new ImageBrush();
             third.ImageSource =
-                new BitmapImage(new Uri(EggThree.refresh(), UriKind.Relative));
+                new BitmapImage(new Uri(EggThree.refresh(), UriKind.Absolute));
             ThirdEgg.Fill = third;
         }
     }

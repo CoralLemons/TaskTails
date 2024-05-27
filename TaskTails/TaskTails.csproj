@@ -116,7 +116,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Background.png" />
+    <Resource Include="UI\Background.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Eggs\monsterEggs01.png">
@@ -140,27 +140,6 @@
     <Resource Include="Eggs\monsterEggs07.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Eggs\monsterEggs08.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Eggs\monsterEggs11.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Eggs\monsterEggs12.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Eggs\monsterEggs14.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Eggs\monsterEggs15.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Eggs\monsterEggs16.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Eggs\monsterEggs18.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Eggs\fieldEggs01.png">
@@ -168,26 +147,7 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="icons8-refresh-64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Eggs\egg-10.png" />
-    <Resource Include="Eggs\egg-11.png" />
-    <Resource Include="Eggs\egg-13.png" />
-    <Resource Include="Eggs\egg-14.png" />
-    <Resource Include="Eggs\egg-15.png" />
-    <Resource Include="Eggs\egg-16.png" />
-    <Resource Include="Eggs\egg-2.png" />
-    <Resource Include="Eggs\egg-3.png" />
-    <Resource Include="Eggs\egg-4.png" />
-    <Resource Include="Eggs\egg-5.png" />
-    <Resource Include="Eggs\egg-6.png" />
-    <Resource Include="Eggs\egg-7.png" />
-    <Resource Include="Eggs\egg-8.png" />
-    <Resource Include="Eggs\egg-9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Eggs\egg-1.png" />
+    <Resource Include="UI\refresh-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

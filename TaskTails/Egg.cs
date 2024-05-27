@@ -79,25 +79,18 @@ namespace TaskTails
         {
             int num = random.Next(1, 14);
             int num1 = random.Next() % num * (random.Next(1, 3));
-            // 14 total eggs & 1 default
+            // 7 total eggs & 1 default -- replace images with custom eggs!
             // return based on random number generated 
             switch (num1)
             {
-                case 0: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs01.png";
-                case 1: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs02.png";
-                case 2: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs03.png";
-                case 3: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs04.png";
-                case 4: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs05.png";
-                case 5: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs06.png";
-                case 6: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs07.png";
-                case 7: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs08.png";
-                case 8: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs11.png";
-                case 9: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs12.png";
-                case 10: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs14.png";
-                case 11: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs15.png";
-                case 12: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs16.png";
-                case 13: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs18.png";
-                default: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\fieldEggs01.png";
+                case 0: return @"pack://application:,,,/Eggs/monsterEggs01.png";
+                case 1: return @"pack://application:,,,/Eggs/monsterEggs02.png";
+                case 2: return @"pack://application:,,,/Eggs/monsterEggs03.png";
+                case 3: return @"pack://application:,,,/Eggs/monsterEggs04.png";
+                case 4: return @"pack://application:,,,/Eggs/monsterEggs05.png";
+                case 5: return @"pack://application:,,,/Eggs/monsterEggs06.png";
+                case 6: return @"pack://application:,,,/Eggs/monsterEggs07.png";
+                default: return @"pack://application:,,,/Eggs/fieldEggs01.png";
             }
         }// end egg generator 
 
@@ -106,48 +99,24 @@ namespace TaskTails
             if (num == 0)
                 num = random.Next();
             int num1 = random.Next() % num * (random.Next(1, 3));
-            // 14 total eggs & 1 default
+            // 7 total eggs & 1 default -- replace images with custom eggs!
             // return based on random number generated 
             switch (num1)
             {
-                case 0: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs01.png";
-                case 1: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs02.png";
-                case 2: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs03.png";
-                case 3: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs04.png";
-                case 4: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs05.png";
-                case 5: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs06.png";
-                case 6: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs07.png";
-                case 7: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs08.png";
-                case 8: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs11.png";
-                case 9: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs12.png";
-                case 10: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs14.png";
-                case 11: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs15.png";
-                case 12: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs16.png";
-                case 13: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\monsterEggs18.png";
-                case 14: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-1.png";
-                case 16: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-2.png";
-                case 17: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-3.png";
-                case 15: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-4.png";
-                case 18: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-5.png";
-                case 19: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-6.png";
-                case 20: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-7.png";
-                case 21: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-8.png";
-                case 22: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-9.png";
-                case 23: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-10.png";
-                case 24: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-11.png";
-                case 25: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-12.png";
-                case 26: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-13.png";
-                case 27: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-14.png";
-                case 28: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-15.png";
-                case 29: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\egg-16.png";
-                default: return @"C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\Eggs\fieldEggs01.png";
+                case 0: return @"pack://application:,,,/Eggs/monsterEggs01.png";
+                case 1: return @"pack://application:,,,/Eggs/monsterEggs02.png";
+                case 2: return @"pack://application:,,,/Eggs/monsterEggs03.png";
+                case 3: return @"pack://application:,,,/Eggs/monsterEggs04.png";
+                case 4: return @"pack://application:,,,/Eggs/monsterEggs05.png";
+                case 5: return @"pack://application:,,,/Eggs/monsterEggs06.png";
+                case 6: return @"pack://application:,,,/Eggs/monsterEggs07.png";
+                default: return @"pack://application:,,,/Eggs/fieldEggs01.png";
             }
         }// end egg generator
 
-
+        // TODO -- add measures of priority to tasks, restrict to 2 of highest importance in an allotted time frame (24 hours?) to prevent spamming points
         public int completeTask() {
             return 3;
-            
         }
 
         public bool checkHatchStatus() {
