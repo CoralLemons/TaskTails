@@ -19,3 +19,5 @@ C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\bin\Debug\System.Drawi
 C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\TaskTails.csproj.Up2Date
 C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\UserControlMainMenu.g.cs
 C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\UserControlMainMenu.baml
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\UserControlAdoptNewPet.g.cs
+C:\Users\gothi\OneDrive\Desktop\Repos\TaskTails\TaskTails\obj\Debug\UserControlAdoptNewPet.baml

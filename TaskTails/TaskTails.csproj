@@ -60,6 +60,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Task.cs" />
+    <Compile Include="UserControlAdoptNewPet.xaml.cs">
+      <DependentUpon>UserControlAdoptNewPet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlMainMenu.xaml.cs">
       <DependentUpon>UserControlMainMenu.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControlAdoptNewPet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControlMainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
