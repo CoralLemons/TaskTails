@@ -20,12 +20,12 @@
                     <BlurEffect Radius="4"/>
                 </Ellipse.Effect>
             </Ellipse>
-            <Ellipse x:Name="EggTwoSelected" HorizontalAlignment="Center" Height="115" Margin="0,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="116" StrokeThickness="4" Visibility="Hidden">
+            <Ellipse x:Name="EggTwoSelected" HorizontalAlignment="Center" Height="115" Margin="0,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="115" StrokeThickness="4" Visibility="Hidden">
                 <Ellipse.Effect>
                     <BlurEffect Radius="4"/>
                 </Ellipse.Effect>
             </Ellipse>
-            <Ellipse x:Name="EggThreeSelected" HorizontalAlignment="Left" Height="114" Margin="364,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="116" StrokeThickness="4" Visibility="Hidden">
+            <Ellipse x:Name="EggThreeSelected" HorizontalAlignment="Left" Height="115" Margin="364,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="115" StrokeThickness="4" Visibility="Hidden">
                 <Ellipse.Effect>
                     <BlurEffect Radius="4"/>
                 </Ellipse.Effect>

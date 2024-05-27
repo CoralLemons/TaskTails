@@ -28,9 +28,10 @@ namespace TaskTails
         }
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public Pet EggThree;
-        public Pet EggTwo;
-        public Pet EggOne;
+        private Pet EggThree;
+        private Pet EggTwo;
+        private Pet EggOne;
+        private Pet SelectedEgg;
 
         private void initializeEggs()
         {
@@ -39,15 +40,11 @@ namespace TaskTails
             EggThree = new Pet();
         }
 
-        public string GetEggOne { get { return EggOne.Image; } }
-        public string GetEggTwo { get { return EggTwo.Image; } }
-        public string GetEggThree { get { return EggThree.Image; } }
-
         private void EggOne_Loaded(object sender, RoutedEventArgs e)
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(GetEggOne, UriKind.Absolute));
+                new BitmapImage(new Uri(EggOne.Image, UriKind.Absolute));
 
             FirstEgg.Fill = myBrush;
         }
@@ -56,7 +53,7 @@ namespace TaskTails
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(GetEggTwo, UriKind.Absolute));
+                new BitmapImage(new Uri(EggTwo.Image, UriKind.Absolute));
 
             SecondEgg.Fill = myBrush;
         }
@@ -65,7 +62,7 @@ namespace TaskTails
         {
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(GetEggThree, UriKind.Absolute));
+                new BitmapImage(new Uri(EggThree.Image, UriKind.Absolute));
 
             ThirdEgg.Fill = myBrush;
         }
@@ -77,6 +74,7 @@ namespace TaskTails
             {
                 EggOneSelected.Visibility = Visibility.Visible;
                 Adopt.IsEnabled = true;
+                SelectedEgg = EggOne;
             }
             else
             {
@@ -92,6 +90,7 @@ namespace TaskTails
             {
                 EggTwoSelected.Visibility = Visibility.Visible;
                 Adopt.IsEnabled = true;
+                SelectedEgg = EggTwo;
             }
             else
             {
@@ -107,6 +106,7 @@ namespace TaskTails
             {
                 EggThreeSelected.Visibility = Visibility.Visible;
                 Adopt.IsEnabled = true;
+                SelectedEgg = EggThree;
             }
             else
             {
@@ -120,26 +120,32 @@ namespace TaskTails
             if (Adopt.IsEnabled == true)
             {
                 Window window = Window.GetWindow(this);
-                window.Content = new UserControlMainMenu();
+                window.Content = new UserControlMainMenu(SelectedEgg);
             }
         }
 
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
+            string E1RF = EggOne.refresh();
             ImageBrush myBrush = new ImageBrush();
             myBrush.ImageSource =
-                new BitmapImage(new Uri(EggOne.refresh(), UriKind.Absolute));
+                new BitmapImage(new Uri(E1RF, UriKind.Absolute));
             FirstEgg.Fill = myBrush;
+            EggOne.Image = E1RF;
 
+            string E2RF = EggTwo.refresh();
             ImageBrush second = new ImageBrush();
             second.ImageSource =
-                new BitmapImage(new Uri(EggTwo.refresh(), UriKind.Absolute));
+                new BitmapImage(new Uri(E2RF, UriKind.Absolute));
             SecondEgg.Fill = second;
+            EggTwo.Image = E2RF;
 
+            string E3RF = EggThree.refresh();
             ImageBrush third = new ImageBrush();
             third.ImageSource =
-                new BitmapImage(new Uri(EggThree.refresh(), UriKind.Absolute));
+                new BitmapImage(new Uri(E3RF, UriKind.Absolute));
             ThirdEgg.Fill = third;
+            EggThree.Image = E3RF;
         }
     }
 }

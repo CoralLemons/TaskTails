@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:TaskTails"
+             xmlns:local="clr-namespace:TaskTails" d:DataContext="{d:DesignInstance Type=local:TaskManager}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="600">
     <Grid>
@@ -11,5 +11,30 @@
             <ImageBrush ImageSource="/UI/Background.png"/>
         </Grid.Background>
         <Rectangle HorizontalAlignment="Center" Height="350" Stroke="Black" VerticalAlignment="Center" Width="400" Fill="#FF90A485" RadiusX="10" RadiusY="10"/>
+        <Rectangle x:Name="PetImage" HorizontalAlignment="Left" Height="94" Margin="122,88,0,0" VerticalAlignment="Top" Width="94" RadiusX="10" RadiusY="10" Loaded="PetImage_Loaded" MouseLeftButtonDown="PetImage_MouseClick"/>
+        <ProgressBar Height="10" Margin="300,88,200,0" VerticalAlignment="Top" >
+            <ProgressBar.Effect>
+                <DropShadowEffect/>
+            </ProgressBar.Effect>
+        </ProgressBar>
+        <ProgressBar Height="10" Margin="300,108,200,0" VerticalAlignment="Top">
+            <ProgressBar.Effect>
+                <DropShadowEffect/>
+            </ProgressBar.Effect>
+        </ProgressBar>
+        <Button Content="Hatch!" Name="HatchButton" Margin="430,100,130,0" VerticalAlignment="Top" Visibility="Hidden" Click="HatchButton_Click"/>
+        <Label Content="Happiness" HorizontalAlignment="Left" Margin="227,82,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold"/>
+        <Label Content="Pet Exp" HorizontalAlignment="Left" Margin="227,102,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold"/>
+        <Label Content="Task Tokens" HorizontalAlignment="Left" Margin="227,122,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" Margin="371,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" StrokeThickness="0" RadiusX="80" RadiusY="80">
+            <Rectangle.Effect>
+                <DropShadowEffect/>
+            </Rectangle.Effect>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/UI/taskToken.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="TaskTokenCounter" Content="{Binding TaskTokenCount}" HorizontalAlignment="Left" Margin="307,130,0,0" VerticalAlignment="Top" Width="59" Loaded="TaskTokenCounter_Loaded" FontFamily="Berlin Sans FB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+
     </Grid>
 </UserControl>

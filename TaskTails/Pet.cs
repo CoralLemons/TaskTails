@@ -45,6 +45,7 @@ namespace TaskTails
             }
         }
 
+        // will probably need to hook into Task object to sync this value
         public int TaskPoints
         {
             get { return taskPoints; }
@@ -77,39 +78,37 @@ namespace TaskTails
 
         private string generateRandomEgg()
         {
-            int num = random.Next(1, 14);
-            int num1 = random.Next() % num * (random.Next(1, 3));
+            int num = random.Next(1, 4);
+            int num1 = random.Next(1, 8) % num * (random.Next(1, 3));
             // 7 total eggs & 1 default -- replace images with custom eggs!
             // return based on random number generated 
             switch (num1)
             {
-                case 0: return @"pack://application:,,,/Eggs/monsterEggs01.png";
-                case 1: return @"pack://application:,,,/Eggs/monsterEggs02.png";
-                case 2: return @"pack://application:,,,/Eggs/monsterEggs03.png";
-                case 3: return @"pack://application:,,,/Eggs/monsterEggs04.png";
-                case 4: return @"pack://application:,,,/Eggs/monsterEggs05.png";
-                case 5: return @"pack://application:,,,/Eggs/monsterEggs06.png";
-                case 6: return @"pack://application:,,,/Eggs/monsterEggs07.png";
+                case 1: return @"pack://application:,,,/Eggs/monsterEggs01.png";
+                case 2: return @"pack://application:,,,/Eggs/monsterEggs02.png";
+                case 3: return @"pack://application:,,,/Eggs/monsterEggs03.png";
+                case 4: return @"pack://application:,,,/Eggs/monsterEggs04.png";
+                case 5: return @"pack://application:,,,/Eggs/monsterEggs05.png";
+                case 6: return @"pack://application:,,,/Eggs/monsterEggs06.png";
+                case 7: return @"pack://application:,,,/Eggs/monsterEggs07.png";
                 default: return @"pack://application:,,,/Eggs/fieldEggs01.png";
             }
         }// end egg generator 
 
         private string generateRandomEgg(int num)
         {
-            if (num == 0)
-                num = random.Next();
-            int num1 = random.Next() % num * (random.Next(1, 3));
+            int num1 = random.Next(1, 8) % num * (random.Next(1, 4));
             // 7 total eggs & 1 default -- replace images with custom eggs!
             // return based on random number generated 
             switch (num1)
             {
-                case 0: return @"pack://application:,,,/Eggs/monsterEggs01.png";
-                case 1: return @"pack://application:,,,/Eggs/monsterEggs02.png";
-                case 2: return @"pack://application:,,,/Eggs/monsterEggs03.png";
-                case 3: return @"pack://application:,,,/Eggs/monsterEggs04.png";
-                case 4: return @"pack://application:,,,/Eggs/monsterEggs05.png";
-                case 5: return @"pack://application:,,,/Eggs/monsterEggs06.png";
-                case 6: return @"pack://application:,,,/Eggs/monsterEggs07.png";
+                case 1: return @"pack://application:,,,/Eggs/monsterEggs01.png";
+                case 2: return @"pack://application:,,,/Eggs/monsterEggs02.png";
+                case 3: return @"pack://application:,,,/Eggs/monsterEggs03.png";
+                case 4: return @"pack://application:,,,/Eggs/monsterEggs04.png";
+                case 5: return @"pack://application:,,,/Eggs/monsterEggs05.png";
+                case 6: return @"pack://application:,,,/Eggs/monsterEggs06.png";
+                case 7: return @"pack://application:,,,/Eggs/monsterEggs07.png";
                 default: return @"pack://application:,,,/Eggs/fieldEggs01.png";
             }
         }// end egg generator
@@ -127,9 +126,7 @@ namespace TaskTails
 
         public string refresh() {
             int num = random.Next(1, 14);
-            int num1 = random.Next() % num * (random.Next(1, 3));
-
-            return generateRandomEgg(num1);
+            return generateRandomEgg(num);
         }
 
         private void NotifyPropertyChanged(string propertyName)

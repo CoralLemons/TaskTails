@@ -9,12 +9,35 @@ namespace TaskTails
 {
     public class Task : INotifyPropertyChanged
     {
+        private int taskCount; // will probably pull out and move to a manager object
+        private string taskType; // look into this as development progresses
 
-        public Task(string name, string description) { }
+        private int taskPoints;
+        private string taskName;
+        private string taskDescription;
+        private int taskPriority;
+        private bool isCompleted;
+        
 
+        public Task(string name, string description, int priority) 
+        { 
+            taskName = name;
+            taskDescription = description;
+            taskPriority = priority;
+            isCompleted = false;
+        }
 
+        public int TaskPoints
+        {
+            get { return taskPoints; }
+            set
+            {
+                taskPoints = value;
+                NotifyPropertyChanged("TaskPoints");
+            }
+        }
 
-
+        
 
 
 

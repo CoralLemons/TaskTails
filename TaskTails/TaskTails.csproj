@@ -60,6 +60,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Task.cs" />
+    <Compile Include="TaskManager.cs" />
     <Compile Include="UserControlAdoptNewPet.xaml.cs">
       <DependentUpon>UserControlAdoptNewPet.xaml</DependentUpon>
     </Compile>
@@ -74,7 +75,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Egg.cs" />
+    <Compile Include="Pet.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -148,6 +149,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="UI\refresh-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UI\taskToken-nobackground.png" />
+    <Resource Include="UI\taskToken.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
